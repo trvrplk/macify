@@ -9,3 +9,8 @@ Also: despite the name, you can, of course, run this on other Unix-like OSes. Bu
 Hopefully I'll get around to adding more stuff, like taking an argument to act on a certain folder instead of just `.`, but it's not really a prioritiy right now.
 
 Anyway, enjoy if you want.
+
+# "Installation"
+Make sure you have Bundler set up, and run `bundle install`. If you want it to work as a normal CLI, you can add a shebang, `chmod +x` the file, rename it without the `.rb`, and move it to somewhere in your `$PATH`—I use `/usr/local/bin` because I'm a `brew` user.
+
+Note: If you use rbenv you need to run `rbenv which ruby` to find the path to use for the shebang, otherwise you'll use the system-included Ruby, which (probably) won't have the `lucky_case` gem installed. I'm sure there's something similar for RVM, but I don't use it so I'm not sure.
