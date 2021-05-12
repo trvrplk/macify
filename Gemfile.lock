@@ -1,0 +1,13 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    lucky_case (1.1.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  lucky_case
+
+BUNDLED WITH
+   2.2.15
